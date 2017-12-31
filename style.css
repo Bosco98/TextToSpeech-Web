@@ -1,0 +1,84 @@
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+ }
+
+body {
+  margin: 10;
+  padding: 0;
+  font-family: Times new Roman;
+  background-color:#8C9EFF;
+  align-items: center;
+
+}
+
+
+.ToSpeech {
+  padding:2rem;
+  margin:0 auto;
+  width:90%;
+  height:90%;
+  border-radius:1rem;
+  background:white;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow:0 0 5px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+  width:calc(100% + 4rem);
+  margin: -2rem 0 2rem -2rem;
+  padding: 1rem;
+  background: #536DFE;
+  border-bottom: 5px solid #82B1FF;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 100;
+ 
+}
+
+.ToSpeech input,
+.ToSpeech button,
+.ToSpeech select,
+.ToSpeech textarea {
+  width: 100%;
+  display: block;
+  margin:10px 0;
+  padding:10px;
+  border:0;
+  font-size: 2rem;
+  background:#F7F7F7;
+  outline:0;
+}
+
+textarea {
+  height: 4rem;
+}
+
+input[type="select"] {
+
+}
+
+.ToSpeech button {
+  background:#536DFE;
+  border:0;
+  width: 49%;
+  float:left;
+  font-family: 'Arial';
+  margin-bottom: 0;
+  font-size: 2rem;
+  border-bottom: 5px solid #82B1FF;
+  cursor:pointer;
+  position: relative;
+}
+
+.ToSpeech button:active {
+  top:2px;
+}
+
+.ToSpeech button:nth-of-type(1) {
+  margin-right: 2%;
+}
